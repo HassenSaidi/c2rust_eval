@@ -1,7 +1,7 @@
 Package | Source | Build<br>Type | Build | c2rust | cargo<br>Build |  `error` | `warning` | `unsafe`| Is<br>Fixable? | Rust<br>Idioms?
 --------| -------| ---------- | ----- | ------ | ----------- | -------- | --------- | ------- | -------- | ----------
 argon2 | C |  make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
-cjson | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1312 | 0 |  :warning:  |  :grey_question: 
+cjson | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1312 | 2952 |  :warning:  |  :grey_question: 
 gzip | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 28 | 100 | 257 |  :x:   |  :grey_question: 
 libaacs | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 7 | 17 | 337 |  :warning:  |  :grey_question: 
 libabigail | C++ | | | | | | | | | 
@@ -19,7 +19,7 @@ libatasmart | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_ma
 libavc1394 | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 75 | 106 |  :warning:  |  :grey_question: 
 libavif | C++ | | | | | | | | | 
 libayatana-appindicator | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libayatana-common | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 3 | 0 |  :warning:  |  :grey_question: 
+libayatana-common | C++ | | | | | | | | | 
 libayatana-indicator | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libbloom | C |  make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 4 | 10 |  :warning:  |  :grey_question: 
 libbluray | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
@@ -36,7 +36,7 @@ libcdio | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  | 
 libcec | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libcerf | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libcgroup | C++ | | | | | | | | | 
-libchamplain | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 253 | 4 |  :warning:  |  :grey_question: 
+libchamplain | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 253 | 2710 |  :warning:  |  :grey_question: 
 libchewing | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 334 | 418 |  :warning:  |  :grey_question: 
 libcli | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 174 | 271 |  :warning:  |  :grey_question: 
 libcloudproviders | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 198 | 390 |  :warning:  |  :grey_question: 
@@ -44,7 +44,7 @@ libcmis | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question
 libconfig | C++ | | | | | | | | | 
 libcork | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libcorkipset | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libcotp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 5 | 0 |  :warning:  |  :grey_question: 
+libcotp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 5 | 16 |  :warning:  |  :grey_question: 
 libcpuid | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 117 | 0 |  :warning:  |  :grey_question: 
 libcuckoo | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libcue | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 25 | 47 |  :warning:  |  :grey_question: 
@@ -127,9 +127,9 @@ libiptcdata | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_ma
 libisoburn | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libisofs | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 72 | 342 | 2563 |  :x:   |  :grey_question: 
 libite | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 35 | 85 |  :warning:  |  :grey_question: 
-libjcat | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 126 | 0 |  :warning:  |  :grey_question: 
+libjcat | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 126 | 533 |  :warning:  |  :grey_question: 
 libjpeg-turbo | C++ | | | | | | | | | 
-libjwt | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 11 | 0 |  :warning:  |  :grey_question: 
+libjwt | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 11 | 56 |  :warning:  |  :grey_question: 
 libkcompactdisc | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libkgapi | C++ | | | | | | | | | 
 libkml | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
@@ -327,4 +327,4 @@ libxvmc | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark: 
 libxxf86dga | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 19 | 139 |  :warning:  |  :grey_question: 
 libxxf86vm | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 9 | 67 |  :warning:  |  :grey_question: 
 libyang | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 69 | 839 | 0 |  :x:   |  :grey_question: 
-libzip | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 287 | 2 |  :warning:  |  :grey_question: 
+libzip | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 287 | 1018 |  :warning:  |  :grey_question:
