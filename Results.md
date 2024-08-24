@@ -1,12 +1,12 @@
 Package | Source | Build<br>Type | Build | c2rust | cargo<br>Build |  `error` | `warning` | `unsafe`| Is<br>Fixable? | Rust<br>Idioms?
 --------| -------| ---------- | ----- | ------ | ----------- | -------- | --------- | ------- | -------- | ----------
 argon2 | C |  make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
-cjson | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1312 |  :warning:  |  :warning:  |  :grey_question: 
+cjson | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1312 | 0 |  :warning:  |  :grey_question: 
 gzip | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 28 | 100 | 257 |  :x:   |  :grey_question: 
 libaacs | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 7 | 17 | 337 |  :warning:  |  :grey_question: 
 libabigail | C++ | | | | | | | | | 
 libaccounts-glib | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 240 | 231 |  :warning:  |  :grey_question: 
-libaec | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 66 |  :warning:  |  :warning:  |  :grey_question: 
+libaec | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 66 | 0 |  :warning:  |  :grey_question: 
 libaio | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 3 | 18 |  :warning:  |  :grey_question: 
 libantlr3c | C++ | | | | | | | | | 
 libao | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 108 | 302 |  :warning:  |  :grey_question: 
@@ -19,7 +19,7 @@ libatasmart | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_ma
 libavc1394 | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 75 | 106 |  :warning:  |  :grey_question: 
 libavif | C++ | | | | | | | | | 
 libayatana-appindicator | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libayatana-common | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 3 |  :warning:  |  :warning:  |  :grey_question: 
+libayatana-common | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 3 | 0 |  :warning:  |  :grey_question: 
 libayatana-indicator | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libbloom | C |  make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 4 | 10 |  :warning:  |  :grey_question: 
 libbluray | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
@@ -36,7 +36,7 @@ libcdio | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  | 
 libcec | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libcerf | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libcgroup | C++ | | | | | | | | | 
-libchamplain | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 253 |  :warning:  |  :warning:  |  :grey_question: 
+libchamplain | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 253 | 4 |  :warning:  |  :grey_question: 
 libchewing | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 334 | 418 |  :warning:  |  :grey_question: 
 libcli | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 174 | 271 |  :warning:  |  :grey_question: 
 libcloudproviders | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 198 | 390 |  :warning:  |  :grey_question: 
@@ -44,8 +44,8 @@ libcmis | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question
 libconfig | C++ | | | | | | | | | 
 libcork | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libcorkipset | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libcotp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 5 |  :warning:  |  :warning:  |  :grey_question: 
-libcpuid | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 117 |  :warning:  |  :warning:  |  :grey_question: 
+libcotp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 5 | 0 |  :warning:  |  :grey_question: 
+libcpuid | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 117 | 0 |  :warning:  |  :grey_question: 
 libcuckoo | C |  cmake  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libcue | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 25 | 47 |  :warning:  |  :grey_question: 
 libcyaml | C | make |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 5 | 33 | 213 |  :x:   |  :grey_question: 
@@ -60,15 +60,15 @@ libde265 | C++ | | | | | | | | |
 libdeflate | C | make |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 14 | 19 | 244 |  :x:   |  :grey_question: 
 libdiscid | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 65 | 53 |  :warning:  |  :grey_question: 
 libdispatch | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libdrm | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 895 |  :warning:  |  :warning:  |  :grey_question: 
+libdrm | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 895 | 0 |  :warning:  |  :grey_question: 
 libdv | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 237 | 455 |  :x:   |  :grey_question: 
 libdvbcsa | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 2 | 13 | 82 |  :warning:  |  :grey_question: 
 libdvbpsi | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 14 | 312 | 755 |  :x:   |  :grey_question: 
 libdvdnav | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libdvdread | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 53 | 10 | 230 |  :x:   |  :grey_question: 
 libeatmydata | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 4 | 23 |  :warning:  |  :grey_question: 
-libebur128 | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 9 | 4 |  :warning:  |  :warning:  |  :grey_question: 
-libeconf | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 29 | 5 |  :warning:  |  :warning:  |  :grey_question: 
+libebur128 | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 9 | 4 | 0 |  :warning:  |  :grey_question: 
+libeconf | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 29 | 5 | 0 |  :warning:  |  :grey_question: 
 libedit | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 20 | 175 | 1047 |  :x:   |  :grey_question: 
 libemf2svg | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libepoxy | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 3625 | 2516 |  :warning:  |  :grey_question: 
@@ -77,12 +77,12 @@ libetpan | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:
 libev | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 120 | 317 |  :warning:  |  :grey_question: 
 libevdev | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libevent | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libevhtp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 103 |  :warning:  |  :x:   |  :grey_question: 
+libevhtp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 103 | 0 |  :x:   |  :grey_question: 
 libewf | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 49 | 3444 |  :warning:  |  :grey_question: 
 libexttextcat | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 41 | 61 |  :warning:  |  :grey_question: 
 libfastjson | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 61 | 171 |  :warning:  |  :grey_question: 
 libffi | C++ | | | | | | | | | 
-libfido2 | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 11 | 12 |  :warning:  |  :x:   |  :grey_question: 
+libfido2 | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 11 | 12 | 0 |  :x:   |  :grey_question: 
 libfishsound | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 108 | 306 |  :warning:  |  :grey_question: 
 libfm-qt | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libfm | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1488 | 7339 |  :warning:  |  :grey_question: 
@@ -104,12 +104,12 @@ libgpiod | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:
 libgpod | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 575 | 99 | 1033 |  :x:   |  :grey_question: 
 libgsf | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 248 | 2361 |  :warning:  |  :grey_question: 
 libgssglue | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 14 | 1487 |  :warning:  |  :grey_question: 
-libgudev | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 29 |  :warning:  |  :warning:  |  :grey_question: 
+libgudev | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 29 | 249 |  :warning:  |  :grey_question: 
 libguestfs | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libgusb | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 82 |  :warning:  |  :warning:  |  :grey_question: 
+libgusb | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 82 | 451 |  :warning:  |  :grey_question: 
 libgweather4 | C |  meson  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libgxps | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 5 | 281 |  :warning:  |  :x:   |  :grey_question: 
-libharu | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 252 |  :warning:  |  :warning:  |  :grey_question: 
+libgxps | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 5 | 281 | 0 |  :x:   |  :grey_question: 
+libharu | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 252 | 0 |  :warning:  |  :grey_question: 
 libhdhomerun | C |  make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libheif | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libhx | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 136 | 295 |  :warning:  |  :grey_question: 
@@ -122,14 +122,14 @@ libieee1284 | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_ques
 libiio | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 6 | 68 | 52 |  :x:   |  :grey_question: 
 libimagequant | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1 | 292 |  :warning:  |  :grey_question: 
 libinput | C++ | | | | | | | | | 
-libinputsynth | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 20 |  :warning:  |  :warning:  |  :grey_question: 
+libinputsynth | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 20 | 0 |  :warning:  |  :grey_question: 
 libiptcdata | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 0 | 116 |  :x:   |  :grey_question: 
 libisoburn | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libisofs | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 72 | 342 | 2563 |  :x:   |  :grey_question: 
 libite | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 35 | 85 |  :warning:  |  :grey_question: 
-libjcat | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 126 |  :warning:  |  :warning:  |  :grey_question: 
+libjcat | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 126 | 0 |  :warning:  |  :grey_question: 
 libjpeg-turbo | C++ | | | | | | | | | 
-libjwt | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 11 |  :warning:  |  :warning:  |  :grey_question: 
+libjwt | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 11 | 0 |  :warning:  |  :grey_question: 
 libkcompactdisc | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libkgapi | C++ | | | | | | | | | 
 libkml | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
@@ -144,8 +144,8 @@ libm4ri | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark: 
 libm4rie | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 42 | 17 | 485 |  :warning:  |  :grey_question: 
 libmaa | C |  make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libmad | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libmanette | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 93 |  :warning:  |  :warning:  |  :grey_question: 
-libmaxminddb | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 139 |  :warning:  |  :warning:  |  :grey_question: 
+libmanette | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 93 | 4 |  :warning:  |  :grey_question: 
+libmaxminddb | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 139 | 0 |  :warning:  |  :grey_question: 
 libmbim | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 24 | 281 | 1364 |  :warning:  |  :grey_question: 
 libmcrypt | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 100 | 1350 |  :warning:  |  :grey_question: 
 libmd | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 24 | 76 |  :warning:  |  :grey_question: 
@@ -157,18 +157,18 @@ libmms | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  
 libmng | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1141 | 3646 |  :warning:  |  :grey_question: 
 libmnl | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 8 | 80 |  :warning:  |  :grey_question: 
 libmpack | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 60 | 179 |  :warning:  |  :grey_question: 
-libmpdclient | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 83 |  :warning:  |  :warning:  |  :grey_question: 
+libmpdclient | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 83 | 0 |  :warning:  |  :grey_question: 
 libmrss | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 42 | 110 |  :warning:  |  :grey_question: 
 libmspack | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 194 | 793 |  :warning:  |  :grey_question: 
 libmtp | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 6 | 32 | 736 |  :x:   |  :grey_question: 
 libmypaint | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libmysofa | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 10 | 41 |  :warning:  |  :warning:  |  :grey_question: 
+libmysofa | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 10 | 41 | 0 |  :warning:  |  :grey_question: 
 libnatpmp | C |  make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 13 | 14 |  :warning:  |  :grey_question: 
 libnbd | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libnet | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 53 | 338 |  :warning:  |  :grey_question: 
-libnfc | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 135 |  :warning:  |  :x:   |  :grey_question: 
+libnfc | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 135 | 0 |  :x:   |  :grey_question: 
 libnfnetlink | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 112 | 77 |  :warning:  |  :grey_question: 
-libnfs | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 387 |  :warning:  |  :warning:  |  :grey_question: 
+libnfs | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 387 | 0 |  :warning:  |  :grey_question: 
 libnftnl | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 596 | 1626 |  :warning:  |  :grey_question: 
 libnice | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 7 | 687 | 13 |  :x:   |  :grey_question: 
 libnids | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 43 | 164 |  :warning:  |  :grey_question: 
@@ -178,7 +178,7 @@ libnjb | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  
 libnl3 | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libnma | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 25 | 132 | 3397 |  :warning:  |  :grey_question: 
 libnotify | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 55 | 7 |  :warning:  |  :grey_question: 
-libnova | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 21 |  :warning:  |  :warning:  |  :grey_question: 
+libnova | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 21 | 0 |  :warning:  |  :grey_question: 
 libnsl | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 133 | 931 |  :warning:  |  :grey_question: 
 libnvme | C++ | | | | | | | | | 
 liboauth | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
@@ -204,7 +204,7 @@ libptytty | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_ques
 libpwquality | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libqb | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libqmi | C |  meson  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libqrtr-glib | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 34 |  :warning:  |  :warning:  |  :grey_question: 
+libqrtr-glib | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 34 | 0 |  :warning:  |  :grey_question: 
 libquvi-scripts | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libquvi | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 librasterlite2 | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 2488 | 10589 |  :warning:  |  :grey_question: 
@@ -221,7 +221,7 @@ libretro-beetle-wswan | C |  make  |  :white_check_mark:  |  :x:  |  | | | |  | 
 libretro-mupen64plus | C++ | | | | | | | | | 
 librime | C++ | | | | | | | | | 
 librsvg | C |  configure/<br>make  |  :x:  |  :white_check_mark:  | :white_check_mark:  | 0 | 27 | 12690 |  :warning:  |  :grey_question: 
-librsync | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 6 | 29 |  :warning:  |  :x:   |  :grey_question: 
+librsync | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 6 | 29 | 0 |  :x:   |  :grey_question: 
 librtas | C | make |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 6 | 11 | 211 |  :warning:  |  :grey_question: 
 libsamplerate | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libsass | C |  make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
@@ -233,13 +233,13 @@ libsepol | C | make |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 63 
 libserialport | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libshairport | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libshout | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 6 | 85 | 594 |  :x:   |  :grey_question: 
-libsignal-protocol-c | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 860 |  :warning:  |  :warning:  |  :grey_question: 
+libsignal-protocol-c | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 860 | 0 |  :warning:  |  :grey_question: 
 libsignon-glib | C |  meson  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libsigrok | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libsigrokdecode | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 3 | 19 | 201 |  :x:   |  :grey_question: 
 libsigsegv | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 51 | 96 |  :warning:  |  :grey_question: 
 libsixel | C++ | | | | | | | | | 
-libslirp | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 97 |  :warning:  |  :x:   |  :grey_question: 
+libslirp | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 97 | 0 |  :x:   |  :grey_question: 
 libsm | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 28 | 201 |  :warning:  |  :grey_question: 
 libsmi | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 69 | 209 | 1428 |  :x:   |  :grey_question: 
 libsndfile | C++ | | | | | | | | | 
@@ -253,7 +253,7 @@ libssh2 | C++ | | | | | | | | |
 libssh | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libstatgrab | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 2 | 153 | 571 |  :x:   |  :grey_question: 
 libstrophe | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 233 | 770 |  :warning:  |  :grey_question: 
-libsv | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 14 |  :warning:  |  :warning:  |  :grey_question: 
+libsv | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 14 | 0 |  :warning:  |  :grey_question: 
 libtermkey | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 64 | 166 |  :warning:  |  :grey_question: 
 libthai | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libtheora | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
@@ -264,28 +264,28 @@ libtraceevent | C | make |  :x:  |  :x:  |  | | | |  |  :grey_question:
 libtracefs | C |  make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libtree | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 35 | 38 |  :warning:  |  :grey_question: 
 libu2f-server | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 8 | 4 | 88 |  :warning:  |  :grey_question: 
-libuecc | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 43 |  :warning:  |  :warning:  |  :grey_question: 
+libuecc | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 43 | 0 |  :warning:  |  :grey_question: 
 libunibreak | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 25 | 38 |  :warning:  |  :grey_question: 
 libunistring | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libunwind | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 184 | 324 | 1328 |  :x:   |  :grey_question: 
 liburing | C++ | | | | | | | | | 
 libusb | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
-libusrsctp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 47 | 347 |  :warning:  |  :x:   |  :grey_question: 
+libusrsctp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 47 | 347 | 0 |  :x:   |  :grey_question: 
 libutempter | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 5 | 18 |  :warning:  |  :grey_question: 
 libva-utils | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
-libva | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 248 |  :warning:  |  :warning:  |  :grey_question: 
+libva | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 248 | 4 |  :warning:  |  :grey_question: 
 libvdpau-va-gl | C++ | | | | | | | | | 
 libvdpau | C |  meson  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libvirt-glib | C |  meson  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libvirt | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 0 | 2837 |  :warning:  |  :grey_question: 
 libvmime | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
-libvncserver | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 3 | 333 |  :warning:  |  :warning:  |  :grey_question: 
+libvncserver | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 3 | 333 | 0 |  :warning:  |  :grey_question: 
 libvorbis | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 1218 | 452 |  :warning:  |  :grey_question: 
 libvpx | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libvterm | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 95 | 428 |  :warning:  |  :grey_question: 
-libwacom | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 150 |  :warning:  |  :warning:  |  :grey_question: 
+libwacom | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 150 | 0 |  :warning:  |  :grey_question: 
 libwebp | C++ | | | | | | | | | 
-libwebsockets | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 47 | 158 |  :warning:  |  :x:   |  :grey_question: 
+libwebsockets | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 47 | 158 | 0 |  :x:   |  :grey_question: 
 libwmf | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libwnck3 | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 513 | 16 |  :warning:  |  :grey_question: 
 libwpe | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
@@ -297,7 +297,7 @@ libxaw | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question:
 libxcb | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libxcomposite | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 5 | 53 |  :warning:  |  :grey_question: 
 libxcursor | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 74 | 230 |  :warning:  |  :grey_question: 
-libxcvt | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 4 |  :warning:  |  :warning:  |  :grey_question: 
+libxcvt | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 4 | 0 |  :warning:  |  :grey_question: 
 libxdamage | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 6 | 57 |  :warning:  |  :grey_question: 
 libxdg-basedir | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 18 | 41 |  :warning:  |  :grey_question: 
 libxdmcp | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 3 | 0 | 28 |  :x:   |  :grey_question: 
@@ -310,7 +310,7 @@ libxinerama | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_ma
 libxkbcommon | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 30 | 151 | 35 |  :x:   |  :grey_question: 
 libxkbfile | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 471 | 292 |  :warning:  |  :grey_question: 
 libxml2 | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libxmlb | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 334 |  :warning:  |  :warning:  |  :grey_question: 
+libxmlb | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 334 | 0 |  :warning:  |  :grey_question: 
 libxmp | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libxmu | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 295 | 537 |  :warning:  |  :grey_question: 
 libxpm | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 340 | 360 |  :warning:  |  :grey_question: 
@@ -326,5 +326,5 @@ libxv | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |
 libxvmc | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 8 | 134 |  :warning:  |  :grey_question: 
 libxxf86dga | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 19 | 139 |  :warning:  |  :grey_question: 
 libxxf86vm | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 9 | 67 |  :warning:  |  :grey_question: 
-libyang | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 69 | 839 |  :warning:  |  :x:   |  :grey_question: 
-libzip | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 287 |  :warning:  |  :warning:  |  :grey_question: 
+libyang | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 69 | 839 | 0 |  :x:   |  :grey_question: 
+libzip | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 287 | 2 |  :warning:  |  :grey_question: 
