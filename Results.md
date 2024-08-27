@@ -4,6 +4,8 @@ argon2 | C |  make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question
 c-ares | C++ | | | | | | | | | 
 cjson | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 1312 | 2952 |  |  :grey_question: 
 gzip | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 28 | 100 | 257 |  :x:   |  :grey_question: 
+http-parser | C |  make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 226 | 17 |  |  :grey_question: 
+httpry | C |  make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libaacs | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 7 | 17 | 337 |  :warning:  |  :grey_question: 
 libabigail | C++ | | | | | | | | | 
 libaccounts-glib | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 240 | 231 |  :warning:  |  :grey_question: 
@@ -256,6 +258,7 @@ libssh | C |  cmake  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_questio
 libstatgrab | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 2 | 153 | 571 |  :x:   |  :grey_question: 
 libstrophe | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 233 | 770 |  |  :grey_question: 
 libsv | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 4 | 14 | 0 |  :warning:  |  :grey_question: 
+libteam | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 600 | 1538 |  |  :grey_question: 
 libtermkey | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 64 | 166 |  |  :grey_question: 
 libthai | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libtheora | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
@@ -264,9 +267,9 @@ libtirpc | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:
 libtool | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libtraceevent | C | make |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libtracefs | C |  make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libtree | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 35 | 38 |  |  :grey_question: 
+libtree | C |  make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 35 | 38 |  |  :grey_question: 
 libu2f-server | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 8 | 4 | 88 |  :warning:  |  :grey_question: 
-libuecc | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 43 | 0 |  |  :grey_question: 
+libuecc | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 43 | 49 |  |  :grey_question: 
 libunibreak | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 25 | 38 |  |  :grey_question: 
 libunistring | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libunwind | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 184 | 324 | 1328 |  :x:   |  :grey_question: 
@@ -275,7 +278,7 @@ libusb | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  
 libusrsctp | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 47 | 347 | 0 |  :x:   |  :grey_question: 
 libutempter | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 5 | 18 |  |  :grey_question: 
 libva-utils | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
-libva | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 248 | 4 |  :warning:  |  :grey_question: 
+libva | C++ | | | | | | | | | 
 libvdpau-va-gl | C++ | | | | | | | | | 
 libvdpau | C |  meson  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libvirt-glib | C |  meson  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
@@ -285,7 +288,7 @@ libvncserver | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x: 
 libvorbis | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 1218 | 452 |  :warning:  |  :grey_question: 
 libvpx | C |  configure/<br>make  |  :white_check_mark:  |  :x:  |  | | | |  |  :grey_question: 
 libvterm | C | make |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 95 | 428 |  |  :grey_question: 
-libwacom | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 150 | 0 |  |  :grey_question: 
+libwacom | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 150 | 506 |  |  :grey_question: 
 libwebp | C++ | | | | | | | | | 
 libwebsockets | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 47 | 158 | 0 |  :x:   |  :grey_question: 
 libwmf | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
@@ -312,7 +315,7 @@ libxinerama | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_ma
 libxkbcommon | C |  meson  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 30 | 151 | 35 |  :x:   |  :grey_question: 
 libxkbfile | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 471 | 292 |  |  :grey_question: 
 libxml2 | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libxmlb | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 334 | 0 |  |  :grey_question: 
+libxmlb | C |  meson  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 334 | 1196 |  |  :grey_question: 
 libxmp | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libxmu | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 295 | 537 |  |  :grey_question: 
 libxpm | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 340 | 360 |  |  :grey_question: 
