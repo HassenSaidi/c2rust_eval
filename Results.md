@@ -267,7 +267,7 @@ libtirpc | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:
 libtool | C |  configure/<br>make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libtraceevent | C | make |  :x:  |  :x:  |  | | | |  |  :grey_question: 
 libtracefs | C |  make  |  :x:  |  :x:  |  | | | |  |  :grey_question: 
-libtree | C |  make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 35 | 38 |  |  :grey_question: 
+libtree | C |  make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 35 | 40 |  |  :grey_question: 
 libu2f-server | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 8 | 4 | 88 |  :warning:  |  :grey_question: 
 libuecc | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 43 | 49 |  |  :grey_question: 
 libunibreak | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 25 | 38 |  |  :grey_question: 
@@ -334,3 +334,4 @@ libxxf86vm | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mar
 libyang | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 69 | 839 | 0 |  :x:   |  :grey_question: 
 libzip | C |  cmake  |  :white_check_mark:  |  :white_check_mark:  | :white_check_mark:  | 0 | 287 | 1018 |  |  :grey_question: 
 pcre2 | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 1 | 165 | 378 |  :warning:  |  :grey_question: 
+sqlite | C |  configure/<br>make  |  :white_check_mark:  |  :white_check_mark:  |  :x:   | 16 | 699 | 1438 |  :x:   |  :grey_question: 
