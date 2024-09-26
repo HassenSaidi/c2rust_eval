@@ -14,3 +14,6 @@ This file contains the evaluation results of c2rust.
 
 ## Stats.md
 Contains stats on the success rate of c2rust.
+
+## Idioms.md
+Contains the list of C functions that can be translated to idiomatic Rust and which one are challenging.
