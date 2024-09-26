@@ -1,7 +1,4 @@
 # c2rust_eval
-Evaluation of the c2rust tool on a large number of open source projects.
-
-
 
 This repo contains the results of evaluating [c2rust](https://c2rust.com) on a large number of open source Linux packages. For each package, we want to know:
 - is the package a C or a C++ package.
