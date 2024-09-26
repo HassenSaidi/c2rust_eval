@@ -11,4 +11,9 @@ This repo contains the results of evaluating [c2rust](https://c2rust.com) on a l
 - how many `error` and `warning` messages are generated when `cargo build`.
 - how many `unsafe` statements are present in the generated rust code.
 - are the errors fixable or is the translation incorrect.
-- can we improve the readability of the produced rust code and make it more idiomatic than what c2rust produces.
+
+## Results.md
+This file contains the evaluation results of c2rust.
+
+## Stats.md
+Contains stats on the success rate of c2rust.
